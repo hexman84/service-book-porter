@@ -1,0 +1,35 @@
+name: servicebook
+description: ServiceBook
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_fonts: ^1.1.0
+  http: ^0.12.1
+  flutter_bloc: ^4.0.0
+  equatable: ^1.1.1
+  intl: ^0.16.1
+  meta: ^1.1.8
+  hive: ^1.4.1+1
+  hive_flutter: ^0.3.0+2
+  firebase_messaging: ^6.0.16
+
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: any
+  build_runner: any
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/
